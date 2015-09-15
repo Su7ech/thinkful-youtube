@@ -1,0 +1,92 @@
+* {
+    /*border: 1px solid red;*/
+}
+html {
+    background-color: #f4f4f4;
+    overflow: auto;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    position: relative;
+    max-width: 60em;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 15px grey;
+    height: auto;
+}
+hr {
+    width: 50em;
+    margin-bottom: 50px;
+    display: none;
+}
+.content {
+    margin: 0 auto;
+}
+
+/*header styling*/
+
+.yt-search-head {
+    /*border: 1px solid red;*/
+    text-align: center;
+    height: 20em;
+    position: relative;
+}
+.site-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75px;
+}
+.yt-search-form {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+}
+.yt-search-form input[type="text"] {
+    border: 1px solid grey;
+    height: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+}
+.yt-search-form input[type="submit"] {
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+.yt-search-form input[type="submit"]:hover {
+    background-color: grey;
+}
+
+/* Results page */
+.yt-search-results {
+    overflow: auto;
+    width: 50em;
+    margin: auto;
+}
+.yt-search-results ul {
+    list-style-type: none;
+    display: block;
+    margin: auto;
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding: 0 0 0 20px;
+}
+.yt-search-results ul li {
+    margin-right: 25px;
+    width: 200px;
+    display: inline-block;
+}
+.yt-search-results ul li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
