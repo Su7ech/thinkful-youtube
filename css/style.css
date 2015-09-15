@@ -2,7 +2,7 @@
     /*border: 1px solid red;*/
 }
 html {
-    background-color: #f4f4f4;
+    background-color: #0266C8;
     overflow: auto;
 }
 html,
@@ -61,9 +61,10 @@ hr {
     border-radius: 25px;
     border: 1px solid lightgray;
     outline: none;
+    background-color: #F90101;
 }
 .yt-search-form input[type="submit"]:hover {
-    background-color: grey;
+    background-color: #00933B;
 }
 
 /* Results page */
