@@ -9,21 +9,27 @@ html,
 body {
     height: 100%;
 }
-body {
-    position: relative;
-    max-width: 60em;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0 0 15px grey;
-    height: auto;
-}
 hr {
     width: 50em;
     margin-bottom: 50px;
     display: none;
 }
+.clearfix:after { 
+   content: "."; 
+   display: block; 
+   clear: both;
+}
+.wrapper {
+    position: relative;
+    max-width: 60em;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    height: auto;
+}
 .content {
     margin: 0 auto;
+    width: 60em;
 }
 
 /*header styling*/
@@ -75,19 +81,29 @@ hr {
 }
 .yt-search-results ul {
     list-style-type: none;
-    display: block;
     margin: auto;
     /*border: 1px solid red;*/
-    text-align: center;
     padding: 0 0 0 20px;
 }
 .yt-search-results ul li {
     margin-right: 25px;
-    width: 200px;
-    display: inline-block;
+}
+.yt-search-results ul li a,
+.yt-search-results ul li p {
+    float: left;
+}
+.yt-search-results ul li a {
+    text-decoration: none;
+    width: 320px;
+    margin-right: 1em;
+    text-overflow: wrap;
 }
 .yt-search-results ul li p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 20em;
+}
+
+/* Footer CSS */
+
+.yt-footer {
+
 }
